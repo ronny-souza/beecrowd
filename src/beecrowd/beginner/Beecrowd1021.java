@@ -8,12 +8,12 @@ public class Beecrowd1021 {
 	/* https://judge.beecrowd.com/pt/problems/view/1021 */
 
 	public static void main(String[] args) {
-		Scanner keyboard = new Scanner(System.in);
-		keyboard.useLocale(Locale.ENGLISH);
+		Scanner scanner = new Scanner(System.in);
+		scanner.useLocale(Locale.ENGLISH);
 
 		double banknotes[] = { 100.0, 50.0, 20.0, 10.0, 5.0, 2.0 };
 		double coins[] = { 1.0, 0.50, 0.25, 0.10, 0.05, 0.01 };
-		double value = keyboard.nextDouble();
+		double value = scanner.nextDouble();
 		int quantityOfBanknotes = 0;
 		int quantityOfCoins = 0;
 
@@ -34,6 +34,6 @@ public class Beecrowd1021 {
 			System.out.println(String.format("%d moeda(s) de R$ %.2f", quantityOfCoins, coins[i]));
 		}
 
-		keyboard.close();
+		scanner.close();
 	}
 }
