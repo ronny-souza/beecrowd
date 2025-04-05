@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Beecrowd1043 {
 
-    /* https://judge.beecrowd.com/pt/problems/view/1042 */
+    /* https://judge.beecrowd.com/pt/problems/view/1043 */
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
