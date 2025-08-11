@@ -12,9 +12,9 @@ public class Beecrowd1050 {
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US);
 
-        int ddd = scanner.nextInt();
+        int code = scanner.nextInt();
 
-        Map<Integer, String> animals = Map.of(
+        Map<Integer, String> codes = Map.of(
                 61, "Brasilia",
                 71, "Salvador",
                 11, "Sao Paulo",
@@ -25,7 +25,7 @@ public class Beecrowd1050 {
                 31, "Belo Horizonte"
         );
 
-        System.out.println(animals.getOrDefault(ddd, "DDD nao cadastrado"));
+        System.out.println(codes.getOrDefault(code, "DDD nao cadastrado"));
         scanner.close();
     }
 }
