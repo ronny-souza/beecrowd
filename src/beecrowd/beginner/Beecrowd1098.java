@@ -2,7 +2,7 @@ package beecrowd.beginner;
 
 public class Beecrowd1098 {
 
-    /* https://judge.beecrowd.com/pt/problems/view/1097 */
+    /* https://judge.beecrowd.com/pt/problems/view/1098 */
 
     public static void main(String[] args) {
         double i = 0;
